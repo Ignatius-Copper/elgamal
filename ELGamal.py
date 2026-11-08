@@ -59,7 +59,7 @@ def elgamal_encode(text,y,g,p):
        else:
            print("Symbol is to Huge")
            return None
-    print(f"Как строка будет выглядеть в интернете: {string_cipher}")
+    print(f"How string will be look like in Internet: {string_cipher}")
     return cipher_text
 
 def elgamal_decode(cipher_text,x,p):
